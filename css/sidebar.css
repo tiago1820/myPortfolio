@@ -7,19 +7,21 @@ aside {
     background-color: #051E34;
     text-align: center;
     padding: 50px !important;
-    
 }
+
 aside h1 {
     color: #FFFFFF;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.5em;
 }
+
 aside h2 {
     color: white;
     font-size: 1em;
     font-weight: 700;
 }
+
 aside .button {
     background-color: #1967D3 !important;
     text-transform: uppercase;
@@ -28,37 +30,44 @@ aside .button {
     font-weight: 700;
     box-shadow: 0px 4px 0px 0px rgba(66, 146, 244, 0.6);
 }
+
 aside .redes-sociais {
     margin-top: 20px;
 }
+
 aside .redes-sociais li {
     display: inline;
     margin-right: 5px;
 }
+
 aside .redes-sociais li i {
     color: white;
     font-size: 30px;
 }
+
 aside .habilidades {
     text-align: left;
     margin-top: 30px;
 }
+
 aside .habilidades h3 {
     color: #eeeeee;
     font-weight: 700;
     font-size: 1em;
     margin-bottom: 10px;
 }
-aside .habilidades small {
-    color: #8fa4af;
-    font-size: 0.750em;
+
+aside .tecnologias {
+    display: flex;
+    flex-wrap: wrap;
 }
-aside .habilidades progress{
-    margin-bottom: 5px;
-}
-aside .habilidades progress::-webkit-progress-value{
-    margin-bottom: 5px;
-    background-color: #1967D3 !important;
+
+.tecnologia {
+    background-color: #f65904;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
 }
 
 .perfilImg {
