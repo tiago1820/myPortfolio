@@ -1,141 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Tiago</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <link rel="stylesheet" href="css/sidebar.css">
-    <link rel="stylesheet" href="css/principal.css">
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+
 </head>
 
-<body>
-    <div class="container">
-        <div class="columns">
-            <!-- Sidebar -->
-            <aside class="column is-4">
-                <img class="perfilImg" src="img/me.png" alt="">
-                <h1>Tiago Souza de Oliveira</h1>
-                <h2>Fullstack Javascript Developer</h2>
-                <a href="./projects/index.html" class="button is-info is-medium">Portfolio</a>
-                <ul class="redes-sociais">
-                    <li>
-                        <a href="https://github.com/tiago1820" target="_blank"><i class="fa fa-github"
-                                aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/tiago1820/" target="_blank"><i
-                                class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-                <div class="habilidades">
-                    <h3>Tecnologías</h3>
-                    <div class="tecnologias">
-                        <span class="tecnologia">HTML e CSS</span>
-                        <span class="tecnologia">JavaScript</span>
-                        <span class="tecnologia">SQL</span>
-                        <span class="tecnologia">NodeJS</span>
-                        <span class="tecnologia">ReactJS</span>
-                        <span class="tecnologia">Linux</span>
-                    </div>
-                </div>
+<body id="page-top">
+  <div id="root"></div>
 
-            </aside>
 
-            <article class="column is-8">
-                <div class="content">
-                    <h3><i class="fa fa-file-text" aria-hidden="true"></i> Summary</h3>
-                    <p>
-                        Soy un Desarrollador Full Stack con sólida experiencia en proyectos freelance utilizando HTML,
-                        CSS,
-                        JavaScript y React.JS.
-                    </p>
-                    <p>
-                        Especializado en tecnologías como React, Node.JS, y PostgreSQL, con una formación integral en
-                        Full Stack
-                        Development de Henry Bootcamp y habilidades multilingües en español, portugués e inglés (B1).
-                    </p>
-                    <h3><i class="fa fa-file-text" aria-hidden="true"></i> Experience</h3>
-
-                    <div class="instituicao columns">
-                        <div class="column is-4">
-                            <h4>Desarrollador Front End Freelance</h4>
-                            <h5>Autonomo</h5>
-                            <small>Diciembre 2023 - actualidad</small>
-                        </div>
-
-                        <div class="column">
-                            <p>
-                                Desarrollando pequeños proyectos, con HTML, CSS, JavaScript y React.JS </p>
-                        </div>
-                    </div>
-                    <div class="instituicao columns">
-                        <div class="column is-4">
-                            <h4>Auxiliar de depósito</h4>
-                            <h5>Medical Implants S.A, Argentina</h5>
-                            <small>Noviembre 2014 - Septiembre 2020</small>
-                        </div>
-
-                        <div class="column">
-                            <p>
-                                Recepción de cajas instrumental, equipos de corte y accesorios. Lavado, secado, control
-                                y acondicionamiento de los mismos. Armado de cirugías según notas de pedido. Embalaje y
-                                despacho de cirugías al interior del país.
-                            </p>
-                        </div>
-                    </div>
-
-                    <h3><i class="fa fa-file-text" aria-hidden="true"></i> Education</h3>
-                    <div class="instituicao columns">
-                        <div class="column is-4">
-                            <h4>Full Stack Web Developer</h4>
-                            <h5>Henry Bootcamp, Argentina</h5>
-                            <small>Julio de 2023 - actualidad</small>
-                        </div>
-
-                        <div class="column">
-                            <p>
-                                Carrera orientada a herramientas de programación como Javascript, CSS, Node JS, React
-                                junto con otras tecnologías que completan el desarrollo profesional del front y
-                                back-end.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="instituicao columns">
-                        <div class="column is-4">
-                            <h4>Educación Secundaria Obligatoria (ESO)
-                            </h4>
-                            <h5>Escola Modelo Campinas, Brasil</h5>
-                            <small>Enero de 2000 - Diciembre de 2023</small>
-                        </div>
-
-                        <div class="column">
-                            <!-- <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quo voluptatibus facere amet dolorum
-                ipsam pariatur, repellendus perspiciatis natus tenetur?
-              </p> -->
-                        </div>
-                    </div>
-
-                    <h3><i class="fa fa-file-text" aria-hidden="true"></i> Goals</h3>
-                    <div class="column">
-                        <p>
-                            Desarrollo continuo de habilidades en tecnologías de desarrollo web, la participación en
-                            proyectos desafiantes que le permitan aplicar su experiencia en HTML, CSS, JavaScript,
-                            React.JS, Node.JS, y PostgreSQL, y la contribución activa a la comunidad de desarrollo
-                            mediante proyectos código libre.
-                        </p>
-
-                    </div>
-                </div>
-
-            </article>
-        </div>
-
-    </div>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <!-- * *                               SB Forms JS                               * *-->
+  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 
 </html>
