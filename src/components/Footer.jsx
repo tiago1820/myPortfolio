@@ -18,9 +18,9 @@ export const Footer = () => {
                             {/* Footer Social Icons*/}
                             <div className="col-lg-6 mb-5 mb-lg-0">
                                 <h4 className="text-uppercase mb-4">Encuentrame en la web</h4>
-                                <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-twitter" /></a>
-                                <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-linkedin-in" /></a>
-                                <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-github" /></a>
+                                <a className="btn btn-outline-light btn-social mx-1" href="https://twitter.com/tiago_1820"><i className="fab fa-fw fa-twitter" /></a>
+                                <a className="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/tiago1820/"><i className="fab fa-fw fa-linkedin-in" /></a>
+                                <a className="btn btn-outline-light btn-social mx-1" href="https://github.com/tiago1820"><i className="fab fa-fw fa-github" /></a>
                             </div>
                             {/* Footer About Text*/}
                             {/* <div className="col-lg-4">
