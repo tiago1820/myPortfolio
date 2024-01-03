@@ -8,7 +8,7 @@ export const Footer = () => {
                         <div className="row">
                             {/* Footer Location*/}
                             <div className="col-lg-6 mb-5 mb-lg-0">
-                                <h4 className="text-uppercase mb-4">Location</h4>
+                                <h4 className="text-uppercase mb-4">Ubicación</h4>
                                 <p className="lead mb-0">
                                     Berazategui,
                                     <br />
@@ -60,6 +60,7 @@ export const Footer = () => {
                                             <img className="img-fluid rounded mb-5" src="assets/img/portfolio/flappy-eggman.png" alt="..." />
                                             {/* Portfolio Modal - Text*/}
                                             <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                            <a href="https://github.com/tiago1820/flappy-eggman" target="_blank"><p>Ver</p></a>
                                             <button className="btn btn-primary" data-bs-dismiss="modal">
                                                 <i className="fas fa-xmark fa-fw" />
                                                 Close Window
@@ -92,6 +93,7 @@ export const Footer = () => {
                                             <img className="img-fluid rounded mb-5" src="assets/img/portfolio/rickandmorty.png" alt="..." />
                                             {/* Portfolio Modal - Text*/}
                                             <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                            <a href="https://github.com/tiago1820/integrator-frontend" target="_blank"><p>Ver</p></a>
                                             <button className="btn btn-primary" data-bs-dismiss="modal">
                                                 <i className="fas fa-xmark fa-fw" />
                                                 Close Window
@@ -124,6 +126,7 @@ export const Footer = () => {
                                             <img className="img-fluid rounded mb-5" src="assets/img/portfolio/pokemon.png" alt="..." />
                                             {/* Portfolio Modal - Text*/}
                                             <p className="mb-4">La aplicación web Pokémon es completa y totalmente funcional. Desarrollada con NodeJS, Express, React y Redux, la plataforma se integra perfectamente con PokeAPI y una base de datos PostgreSQL utilizando Sequelize. Los usuarios pueden buscar, ver y filtrar información de Pokémon, así como crear nuevos Pokémon a través de un formulario interactivo. La interfaz proporciona una experiencia intuitiva con páginas de inicio, vistas detalladas y un formulario de creación. Se implementaron funciones avanzadas, como filtrado y clasificación, sin depender de puntos finales API predefinidos. Se realizaron pruebas exhaustivas para garantizar la calidad del sistema, abarcando componentes frontend, rutas backend y modelos de bases de datos. Estas características y pruebas garantizan una aplicación Pokémon completa y sólida para los usuarios.</p>
+                                            <a href="https://github.com/tiago1820/pokemon-pi" target="_blank"><p>Ver</p></a>
                                             <button className="btn btn-primary" data-bs-dismiss="modal">
                                                 <i className="fas fa-xmark fa-fw" />
                                                 Close Window
