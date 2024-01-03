@@ -49,7 +49,7 @@ export const Footer = () => {
                                     <div className="row justify-content-center">
                                         <div className="col-lg-8">
                                             {/* Portfolio Modal - Title*/}
-                                            <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                            <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Flappy Eggman</h2>
                                             {/* Icon Divider*/}
                                             <div className="divider-custom">
                                                 <div className="divider-custom-line" />
@@ -81,7 +81,7 @@ export const Footer = () => {
                                     <div className="row justify-content-center">
                                         <div className="col-lg-8">
                                             {/* Portfolio Modal - Title*/}
-                                            <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                            <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Rick And Morty WIKI</h2>
                                             {/* Icon Divider*/}
                                             <div className="divider-custom">
                                                 <div className="divider-custom-line" />
